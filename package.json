@@ -1,5 +1,5 @@
 {
-  "name": "Eventbrite Finder",
+  "name": "eventbritefinder",
   "version": "1.0.0",
   "description": "Reactjs application for searching events using eventbrite API",
   "private": null,
