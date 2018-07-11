@@ -16,9 +16,7 @@ export const Header = (props) => (
                     <li className="nav-item">
                         <NavLink activeClassName="active" className="nav-link" to="/browse">Browse</NavLink>
                     </li>
-                    <li className="nav-item">
-                        <NavLink activeClassName="active" className="nav-link" to="/create">Create</NavLink>
-                    </li>
+
                     {props.authenticated
                     ?
                         <li className="nav-item">

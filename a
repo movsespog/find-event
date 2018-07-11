@@ -1,0 +1,12 @@
+diff --git a/package.json b/package.json
+index 7098b4b..a301369 100644
+--- a/package.json
++++ b/package.json
+@@ -12,7 +12,6 @@
+     "heroku-postbuild": "npm install",
+     "postinstall": "npm install --prefix ./server/server",
+     "start": "node server/server/index.js"
+-
+   },
+   "dependencies": {
+     "@tinymce/tinymce-react": "^2.1.0",

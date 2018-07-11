@@ -24,7 +24,6 @@ const AppRouter = () => (
             <Switch>
                 <Route path="/" component={AnimatedPage(HomePage)} exact={true}/>
                 <Route path="/browse" component={AnimatedPage(Browse)} />
-                <Route path="/create" component={AnimatedPage(RequireAuth(CreateEvent))} />
                 <Route path="/signup" component={AnimatedPage(SignUp)} />
                 <Route path="/signin" component={AnimatedPage(SignIn)} />
                 <Route path="/signout" component={AnimatedPage(SignOut)} />

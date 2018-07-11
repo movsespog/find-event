@@ -6,7 +6,7 @@ export const Map = withScriptjs(withGoogleMap(props => {
    const long = parseFloat(props.longitude);
    return (
        <GoogleMap
-           defaultZoom={12}
+           defaultZoom={16}
            defaultCenter={{lat:lat, lng: long}}
        >
            {props.isMarkerShown && <Marker position={{lat: lat, lng: long}}/>}
